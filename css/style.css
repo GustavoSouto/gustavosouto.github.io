@@ -35,6 +35,24 @@ h1#titulo_{
     font-size: 2em;
    
 }
+.titulo_{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:  #1a3b66;
+    font-size: 2em;
+    animation: titulo 2s;
+}
+@keyframes titulo{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 p{
     font-size: 1.2em;
 }
