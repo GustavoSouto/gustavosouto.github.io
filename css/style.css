@@ -48,7 +48,11 @@ h1#titulo_{
     background-color: #ffffff;
     color:  #1a3b66;
     font-size: 3em;
+    border-radius: 35px;
    
+}
+.cardss{
+    border-radius: 35px;
 }
 
 p{
