@@ -1,4 +1,3 @@
-
 .bgdark{
     background-color: #1a3b66;
 }
@@ -69,6 +68,15 @@ p{
    border: 2px solid #1a3b66;
     color: #1a3b66;
     font-weight: 600;
+}
+.btncolor2{
+    border: 2px solid #ffffff;
+     color: #ffffff;
+     font-weight: 600;
+ }
+ .btncolor2:hover{
+    background-color: #ffffff;
+    color: #1a3b66;
 }
 .btncolor:hover{
     background-color: #1a3b66;
