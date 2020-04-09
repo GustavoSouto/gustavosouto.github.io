@@ -39,6 +39,13 @@ h1#titulo_{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color:  #1a3b66;
+  
+   
+}
+.titulo_white{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:  #ffffff;
     font-size: 2em;
    
 }
