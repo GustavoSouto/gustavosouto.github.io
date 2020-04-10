@@ -1,106 +1,142 @@
-.bgdark{
+.bgdark {
     background-color: #1a3b66;
 }
-.logotipo{
-   width: 250px;
+
+.logotipo {
+    width: 250px;
 }
-.teste{
+
+.teste {
     text-align: center;
     font-weight: 700;
     color: #1a3b66;
 }
-.title_modal{
+
+.title_modal {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #1a3b66; 
-}
-.card{
- border: 2px solid #1a3b66;
- 
-}
-.bg-blue{
-    background-color:  #1a3b66;
-    color: #1a3b66;
-    
-}
-.bg-white{
     color: #1a3b66;
 }
-h1#titulo_{
+
+.card {
+    border: 2px solid #1a3b66;
+}
+
+.bg-blue {
+    background-color: #1a3b66;
+    color: #1a3b66;
+}
+
+.bg-white {
+    color: #1a3b66;
+}
+
+h1#titulo_ {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 2em;
-   
 }
-.titulo_{
+
+.titulo_ {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color:  #1a3b66;
-  
-   
+    color: #1a3b66;
 }
-.titulo_white{
+
+.titulo_white {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 2em;
-   
 }
-.titulo_mb{
+
+.cabecalho {
+    animation: cabecalho 2s;
+}
+@keyframes cabecalho{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+
+
+.bannerimg {
+    animation: animateimg 1.5s;
+}
+
+@keyframes animateimg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.titulo_mb {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     background-color: #ffffff;
-    color:  #1a3b66;
+    color: #1a3b66;
     font-size: 3em;
-    border-radius: 35px;
-   
-}
-.cardss{
     border-radius: 35px;
 }
 
-p{
+.cardss {
+    border-radius: 35px;
+}
+
+p {
     font-size: 1.2em;
 }
-.btncolor{
-   border: 2px solid #1a3b66;
+
+.btncolor {
+    border: 2px solid #1a3b66;
     color: #1a3b66;
     font-weight: 600;
 }
-.btncolor2{
+
+.btncolor2 {
     border: 2px solid #ffffff;
-     color: #ffffff;
-     font-weight: 600;
- }
- .btncolor2:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btncolor2:hover {
     background-color: #ffffff;
     color: #1a3b66;
 }
-.btncolor:hover{
+
+.btncolor:hover {
     background-color: #1a3b66;
     color: #ffffff
 }
 
+/* ################################################### */
+
+/* ////////////////// MOBILE MOBILE ////////////////// */
 
 /* ################################################### */
-/* ////////////////// MOBILE MOBILE ////////////////// */
-/* ################################################### */
-@media (max-width: 768px){
-    .logotipo{
+
+@media (max-width: 768px) {
+    .logotipo {
         width: 120px;
     }
-    h1#titulo_{
+    h1#titulo_ {
         font-size: 2em;
     }
-    p{
+    p {
         font-size: 1em;
     }
-    .title_modal{
+    .title_modal {
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 1.2em ;
+        font-size: 1.2em;
     }
 }
