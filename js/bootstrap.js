@@ -4518,4 +4518,15 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
+
+ function mostrarAtivo(tag){
+   var tag_li = document.getElementById('lista_menu');
+   var tag_a = tag_li.getElementsByTagName('a');
+   for (i=0; i<tag_a.length; i++ )
+   {
+      tag_a[i].style.color = "";
+   }
+      tag.style.color = "gray";
+      
+   }
 //# sourceMappingURL=bootstrap.js.map

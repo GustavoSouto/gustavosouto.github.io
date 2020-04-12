@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/3989608a57.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.js"></script>
     <!-- <script src="//code.jivosite.com/widget/Q66nMwnodY" async></script> -->
     <title>Provedor de Internet</title>
 </head>
@@ -32,18 +33,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse text-right" style="font-weight: 600;;" id="nav-principal">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item testes">
-                            <a href="#ancora-planos" class="nav-link">Planos</a>
+                    <ul class="navbar-nav ml-auto" id="lista_menu">
+                        <li class="nav-item ">
+                            <a href="#home" class="nav-link " onclick="mostrarAtivo(this);">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#ancora-suporte" class="nav-link">Suporte</a>
+                            <a href="#ancora-planos" class="nav-link" onclick="mostrarAtivo(this);">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#ancora-contato" class="nav-link">Contato</a>
+                            <a href="#ancora-suporte" class="nav-link" onclick="mostrarAtivo(this);">Suporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ancora-contato" class="nav-link" onclick="mostrarAtivo(this);">Contato</a>
                         </li>
                     </ul>
                 </div>
