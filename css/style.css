@@ -116,6 +116,12 @@ p {
     background-color: #1a3b66;
     color: #ffffff
 }
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: #1a3b66;
+    border-radius: 30px;
+}
 
 /* ################################################### */
 
